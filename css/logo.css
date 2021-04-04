@@ -1,0 +1,159 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+div{
+	position: absolute;
+}
+.bg{
+	width: 800px;
+	height: 600px;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.beam{
+	width: 1600px;
+	height: 20px;
+	background: white;
+	top: 290px;
+	left: -400px;
+}
+.lef-1,.lef-2,.lef-3,.rig-1,.rig-2,.rig-3{
+	background: #e15016;
+}
+.lef-1{
+	left: 32px;
+	width: 140px;
+	height: 346px;
+}
+.lef-2{
+	transform: skewX(5deg);
+	left: 16px;
+	width: 100px;
+	height: 346px;
+}
+.lef-3{
+	transform: skewY(15deg);
+	top: 265px;
+	left: 32px;
+	width: 140px;
+	height: 100px;
+}
+.rig-1{
+	left: 172px;
+	width: 140px;
+	height: 346px;
+}
+.rig-2{
+	transform: skewX(-5deg);
+	left: 227px;
+	width: 100px;
+	height: 346px;
+}
+.rig-3{
+	transform: skewY(-15deg);
+	top: 265px;
+	left: 172px;
+	width: 140px;
+	height: 100px;
+}
+.sma-1,.sma-2,.sma-3{
+	background-color: #ee6812;
+}
+.sma-1{
+	left: 172px;
+	width: 140px;
+	height: 346px;
+}
+.sma-2{
+	transform: skewX(-5deg);
+	left: 227px;
+	width: 100px;
+	height: 346px;
+}
+.sma-3{
+	transform: skewY(-15deg);
+	top: 265px;
+	left: 172px;
+	width: 140px;
+	height: 100px;
+}
+.eight-1,.eight-2,.eight-3,.eight-4{
+	background-color: #ebebeb;
+}
+.eight-1{
+	height: 43px;
+	width: 102px;
+	left: 70px;
+	top: 70px;
+}
+.eight-2{
+	height: 216px;
+	width: 46px;
+	transform: skewX(5deg);
+	left: 75px;
+	top: 70px;
+}
+.eight-3{
+	height: 43px;
+	width: 95px;
+	left: 77px;
+	top: 156px;
+}
+.eight-4{
+	height: 47px;
+	width: 87px;
+	transform: skewY(15deg);
+	left: 85px;
+	top: 251px;
+}
+.eight-5,.eight-6,.eight-7,.eight-8{
+	background-color: #ebebeb;
+}
+.eight-5{
+	height: 43px;
+	width: 102px;
+	left: 172px;
+	top: 70px;
+}
+.eight-6{
+	height: 216px;
+	width: 46px;
+	transform: skewX(-5deg);
+	left: 223px;
+	top: 70px;
+}
+.eight-7{
+	height: 43px;
+	width: 95px;
+	left: 172px;
+	top: 156px;
+}
+.eight-8{
+	height: 47px;
+	width: 87px;
+	transform: skewY(-15deg);
+	left: 172px;
+	top: 251px;
+}
+.l{
+	height: 43px;
+	width: 95px;
+	left: 50px;
+	top: 199px;
+	background-color: #e15016;
+}
+.r{
+	height: 43px;
+	width: 102px;
+	left: 180px;
+	top: 113px;
+	background-color: #ee6812;
+}
+img{
+	position: relative;
+	top: 8px;
+	left: 230px;
+	width: 350px;
+	height: 110px;
+}

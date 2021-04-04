@@ -1,0 +1,95 @@
+*{margin: 0px;padding: 0px;}
+body{
+    min-width: 800px;
+    text-align: center;
+    background: linear-gradient(90deg,#08a3ebb9,#e43d9ccc,#f8e74eab,#08a3ebb9);
+    background-size: 200%;
+    animation: light 3s linear infinite;
+}
+@keyframes light{
+    0%{background-position: 0%;}
+    100%{background-position: 200%;}
+}
+body>*{width: 100%;}
+header{
+    text-align: left;
+    height: 70px;
+    background-color: rgb(20, 20, 20);
+    line-height: 70px;
+}
+ul>*{display: inline-block;margin: 0px 15px;list-style: none;}
+a{text-decoration-line: none;color: white;}
+a:hover,.a{color: yellow}
+.image1{width: 80px;height: 40px;position: relative;top: 10px;}
+i{color: white;}
+input{display: none;}
+label{position: absolute;right: 3%;display: none;}
+@media screen and (max-width: 800px){
+    #label{display: inline-block;}
+    header ul{
+        position: fixed;
+        width: 100%;line-height: 30px;
+        margin-top: 70px;
+        display: none;
+        background: linear-gradient(90deg,#08a3ebb9,#e43d9ccc,#f8e74eab,#08a3ebb9);
+        background-size: 200%;
+        animation: light 3s linear infinite;
+    }
+    header ul>li{display: block;text-align: center;}
+    input[type=checkbox]:checked~ul{display: block;z-index: 10}
+}
+.div1{position: relative;}
+.image2{width: 100%;max-height: 590px;}
+section{
+    width: 35%;
+    min-width: 330px;
+    max-width: 350px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px black;
+    background-color: honeydew;
+}
+section p{height: 60px;line-height: 60px;}
+button{
+    width: 120px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: greenyellow;
+}
+.div2>div:last-child{margin-bottom: 50px;}
+.p1{
+    font-size: 30px;
+    padding: 25px 0px;
+    color: yellow;}
+.image3{
+    width: 500px;
+    height: 200px;
+}
+.div4{
+    display: inline-block;
+    width: 500px;
+    max-height: 200px;
+    vertical-align: top;
+    padding-left: 15px;
+}
+.p2{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 20px 0px 10px 15px;
+    float: left;
+}
+.p2:hover{overflow: auto;}
+footer{
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(20, 20, 20);
+}
